@@ -1,0 +1,11 @@
+# large / regenerable outputs (download data separately, see data/README.md)
+data/*.npz
+runs/
+runs_ff/
+cache/
+r-test/
+static/*/
+todo_rev.txt
+__pycache__/
+*.pyc
+figures/

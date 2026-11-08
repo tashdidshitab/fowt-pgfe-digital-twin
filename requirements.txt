@@ -1,0 +1,8 @@
+# Python packages (OpenFAST/TurbSim 5.0.0 binaries are installed separately, e.g. via environment.yml)
+numpy==2.4.6
+scipy==1.17.1
+pandas==3.1.0
+matplotlib==3.11.2
+scikit-learn==1.9.1
+rainflow==3.2.0
+openfast_toolbox @ git+https://github.com/OpenFAST/openfast_toolbox.git

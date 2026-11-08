@@ -1,0 +1,16 @@
+name: fowt-pgfe
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - openfast=5.0.0        # provides openfast and turbsim
+  - gfortran              # to compile the DISCON controller
+  - numpy=2.4
+  - scipy=1.17
+  - pandas=3.1
+  - matplotlib=3.11
+  - scikit-learn=1.9
+  - pip
+  - pip:
+      - rainflow==3.2.0
+      - git+https://github.com/OpenFAST/openfast_toolbox.git   # tested with 3.5.1 (see README note)
